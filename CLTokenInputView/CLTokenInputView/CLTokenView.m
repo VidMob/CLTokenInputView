@@ -49,7 +49,7 @@ static NSString *const UNSELECTED_LABEL_NO_COMMA_FORMAT = @"%@";
 
         self.selectedBackgroundView = [[UIView alloc] initWithFrame:CGRectZero];
         self.selectedBackgroundView.backgroundColor = tintColor;
-        self.selectedBackgroundView.layer.cornerRadius = 3.0;
+        self.selectedBackgroundView.layer.cornerRadius = 4;
         [self addSubview:self.selectedBackgroundView];
         self.selectedBackgroundView.hidden = YES;
 
